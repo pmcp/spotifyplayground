@@ -2,6 +2,13 @@
 node_modules
 /dist
 
+# Firebase
+/functions/package-lock.json
+/functions/.*
+/functions/node_modules
+database.rules.json
+storage.rules
+
 # local env files
 .env.local
 .env.*.local
